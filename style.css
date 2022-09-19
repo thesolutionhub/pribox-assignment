@@ -1,0 +1,251 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+/* header section start */
+header {
+    height: 100vh;
+}
+.nav-section {
+    background-color: white;
+}
+.li-a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    list-style: none;
+    text-decoration: none;
+    padding-left: 48px;
+    padding-top: 10px;
+}
+span {
+    color: #5A29A7;
+}
+.btn-style {
+    margin-right: 112px;
+    padding: 11px 20px;
+    gap: 10px;
+    background: #5A29A7;
+    border-radius: 12px;
+    border: none;
+    color: white;
+}
+.logo {
+    margin-left: 20%;
+}
+.login-a {
+    padding-right: 33px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    text-decoration: none;
+    margin-left: 70px;
+    padding-top: 10px;
+}
+.main-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 64px;
+    line-height: 60px;
+    color: #000000;
+}
+.header-btn {
+    padding: 12px 20px;
+    width: 201px;
+    height: 48px;
+    background: #FFFFFF;
+    border: 1px solid #5A29A7;
+    border-radius: 8px;
+    color: #5A29A7;
+}
+.header-section {
+    height: 100vh;
+    width: 100%;
+}
+/* header section end */
+.para-list {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #333333;
+}
+/* Trusted by top-tier companies end  */
+.customers-section-para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    color: #1A1A1A;
+}
+.customers-section-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.8);
+}
+#first-para {
+    background: #FFFFFF;
+    border: 1px solid #FFCFCF;
+    border-radius: 12px;
+    padding: 28px 90px;
+    position: relative;
+    top: 20px;
+}
+#sec-para {
+    background: #FDF6F6;
+    border: 1px solid #FF8E8E;
+    border-radius: 12px;
+    padding: 37px 151px;
+    position: relative;
+    left: 30px;
+    z-index: 2;
+}
+#third-para {
+    background: #FFFFFF;
+    border: 1px solid #FFCFCF;
+    border-radius: 12px;
+    padding: 28px 62px;
+    position: relative;
+    bottom: 20px;
+    z-index: 1;
+}
+/* Why do you need to warm-up your email domain? end  */
+/* heading section start */
+.all-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 120.3%;
+    text-align: center;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+.all-small-heading {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 115.3%;
+    letter-spacing: -0.015em;
+    color: #000000;
+}
+/* heading section end */
+.img-four-comp {
+    position: relative;
+    bottom: 12px;
+}
+/* Why pribox start */
+.why-pribox-para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: #000000;
+    opacity: 0.8;
+}
+/* why pribox end */
+.cards-item-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.border-style {
+    border: none;
+}
+/* mail section start */
+.container-mail {
+    width: 100%;
+    padding: auto;
+
+}
+.container-mail .ser-h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 34px;
+
+    text-align: center;
+    color: #000000;
+    position: relative;
+}
+.row-mail {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+
+}
+.service {
+    text-align: center;
+    padding: 25px 10px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    background: transparent;
+}
+.service:hover {
+    background-color: #5A29A7;
+    color: white;
+    transform: scale(1.05);
+}
+/* mail section end */
+/* ans question section start */
+.question-section {
+    width: 80vw;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.main-question-section {
+    height: 100vh;
+}
+.question-section-wirth {
+    display: block;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+/* footer style style */
+.footer-b-para {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    text-align: center;
+    color: rgba(51, 51, 51, 0.8);
+}
+.list-style ul li {
+    list-style: none;
+    display: flex;
+    text-align: start;
+}
+.footer-logo {
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
